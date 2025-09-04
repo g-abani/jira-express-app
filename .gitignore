@@ -1,4 +1,10 @@
 node_modules/
 .env
 .DS_Store
+*.log
 
+# Binary distribution files
+dist/*.exe
+dist/jira-express-app*
+!dist/.env.example
+!dist/README.md
